@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    margin: 0 16rem;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid #828282;
+}
+
+.nav__item{
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    font-weight:600;
+    color: #828282;
+    cursor: pointer;
+}
+
+
+
+.nav__item:hover{
+    color: black;
+}
+
+.banner{
+    padding-bottom: 6rem;
+}
+
+.banner__header{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.banner__logo{
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    width: 9rem;
+    line-height: 3rem;
+}
+
+
+.banner__aboutMe{
+    font-size: 1.1rem;
+    width: 10rem;
+}
+
+.lang{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Lang__item{
+    margin-top: 0.8rem;
+    transform: rotate(-90deg);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2rem;
+    color: #828282;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Lang__item:hover{
+    color: black;
+}
+
+.banner__img{
+    max-width: 100%;
+    font-display: block;
+}
+
+.About{
+    background-color: #F6F6F6;
+}
+
+.title{
+    text-align:center ;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about__title{
+    padding-top: 7.5rem;
+}
+
+.About__text{
+    width: 30.3rem;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+.About__item{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #070707;
+
+    margin-top: 2rem;
+}
+
+.skils__title{
+    margin-top: 5.7rem;
+}
+
+
+.skils__listTitle{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    margin-top: 4.5rem;
+}
+
+.skils__list{
+    margin-top: 5.1rem;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skils__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skils__app{
+    margin-top: 2rem;
+    width: 4.8rem;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    color: #828282;
+}
+
+.skils__level{
+    margin-top: 2.5rem;
+}
+
+.portfolio{
+    background-color: #F6F6F6;
+}
+
+.portfolio__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+.portfolio__title{
+    margin-bottom: 3rem;
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.portfolio__link{
+    margin-top: 3.4rem;
+    margin-bottom: 6rem;
+
+    color: #070707;
+    font-size: 1.1rem;
+
+
+}
+
+.contact__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.contact__title{
+    margin-bottom: 1.2rem;
+
+    font-weight: bold;
+    font-size: 2rem;
+    color: #070707;
+}
+
+.contact__text{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+
+    width: 17rem;
+}
+
+.contact__button{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+
+    padding: .8rem 1.8rem;
+
+    background-color: #070707;
+    border-radius: 3rem;
+    transition: .2s linear
+}
+
+.contact__button:hover{
+    transform: scale(1.1);
+}
+
+.contact__socialList{
+    margin-top: 4rem;
+}
+
+.contact__item{
+    margin-right: 3.8rem;
+}
+
+.contact__item:last-child{
+    margin-right: 0;
+}
+
+.contact__info{
+    margin-top: 2rem;
+    width: 15rem;
+
+    color: #828282;
+
+    font-size: 1rem;
+    text-align: center;
+}
