@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1444">
-    <link rel="stylesheet" href="css/normaliaze.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <title>Denis Novik</title>
 </head>
@@ -35,7 +34,12 @@
                         <a href="#" class="Lang__item">RU<span class="line">|</span></a>
                     </div>
                     </header>
-                    <img src="img/Group 2.1.png" alt="Denis Novik" class="banner__img">
+                    <picture>
+                        <source srcset="img/mb.png" media="(max-width: 500px)">
+                        <source>
+                        <img class="banner__img" src="img/Group 2.1.png" alt="Denis Novik" >
+                    </picture>
+
                 </div>
             </section>
             <section class="About">
@@ -80,11 +84,20 @@
                 <div class="container">
                     <div class="portfolio__wrap">
                         <h2 class="portfolio__title">Portfolio</h2>
-                        <img src="img/woman.png" alt="" class="portfolio__img">
+                        <picture>
+                            <source srcset="img/woman-sm.png" media="(max-width: 500px)">
+                            <img class="portfolio__img"  src="img/woman.png" alt="fashion store" class="portfolio__img">
+                        </picture>
                         <a href="#" class="portfolio__link">Online fashion store - Homepage</a>
-                        <img src="img/rebook.png" alt="" class="portfolio__img">
+                        <picture>
+                            <source srcset="img/reebok-sm.png" media="(max-width: 500px)">
+                            <img class="portfolio__img" src="img/rebook.png" alt="rebook" class="portfolio__img">
+                        </picture>
                         <a href="#" class="portfolio__link">Reebok Store - Concept</a>
-                        <img src="img/braun.png" alt="" class="portfolio__img">
+                        <picture>
+                            <source srcset="img/braun-sm.png" media="(max-width: 500px)">
+                            <img class="portfolio__img" src="img/braun.png" alt="braun" class="portfolio__img">
+                        </picture>
                         <a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
                     </div>
                 </div>
@@ -99,7 +112,7 @@
                         <img class="contact__item" src="img/svg/bn.svg" alt="">
                         <img class="contact__item" src="img/svg/inst.svg" alt="">
                         <img class="contact__item" src="img/svg/in.svg" alt="">
-                        <img class="contact__item" src="img/svg/bn.svg" alt="">
+                        <img class="contact__item" src="img/svg/be.svg" alt="">
                     </div>
                     <p class="contact__info">Like me on LinkedIn, Instagram, Behance, Dribble</p>
                 </div>

@@ -6,8 +6,12 @@
 }
 
 .container{
-    margin: 0 16rem;
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+
+
 
 .nav__list{
     display: flex;
@@ -57,6 +61,8 @@
     width: 10rem;
 }
 
+
+
 .lang{
     display: flex;
     flex-direction: column;
@@ -81,7 +87,8 @@
 
 .banner__img{
     max-width: 100%;
-    font-display: block;
+    display: block;
+    margin: 0 auto;
 }
 
 .About{
@@ -99,7 +106,7 @@
 }
 
 .About__text{
-    width: 30.3rem;
+    max-width: 30.3rem;
     margin: 0 auto;
     padding-bottom: 6rem;
 }
@@ -184,6 +191,11 @@
 
 }
 
+.portfolio__img{
+    max-width: 100%;
+    display: block;
+}
+
 .contact__wrap{
     display: flex;
     flex-direction: column;
@@ -247,4 +259,36 @@
 
     font-size: 1rem;
     text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .banner__header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner__aboutMe{
+        margin-top: 1rem;
+    }
+
+    .lang{
+        display: none;
+    }
+
+    .nav__list{
+        flex-direction: column;
+    }
+
+    .skils__list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__item{
+        margin-right: 3rem;
+    }
+
+    .skils__item{
+        margin-top: 5rem;
+    }
 }
